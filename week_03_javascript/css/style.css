@@ -1,0 +1,41 @@
+b, strong {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+h1, h3 {
+	text-align: center;
+	text-decoration: underline;
+	color: green;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+input[type="submit"] {
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+}
+
+p {
+	text-indent: 5%;
+	font-family: Arial;
+	word-spacing: 5px;
+	/* not a requirement, but it looks better if everything is centered */
+	text-align: center;
+}
+
+table {
+	border: 2px dashed gray;
+	/* not a requirement, but it looks better if everything is centered */
+	margin: auto;
+}
+
+/* not a requirement, but it looks better if everything is centered */
+video {
+	margin: auto;
+	display: block;
+}

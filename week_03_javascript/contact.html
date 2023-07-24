@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Yet Another Business</title>
+		<meta name="keywords" content="webpage, IT 413, assignment, business page">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script language="JavaScript" src="js/vlaidate.js"></script>
+	</head>
+
+	<body>
+		<h1>YAB - Yet Another Business</h1>
+		<table>
+			<tr>
+				<td><a href="index.html">Home</a></td>
+				<td><a href="about.html">About</a></td>
+				<td><a href="team.html">Team</a></td>
+				<td><a href="services.html">Services</a></td>
+				<td><a href="contact.html">Contact</a></td>
+			</tr>
+		</table>
+
+		<h3>Contact</h3>
+		<form name="contact" method="post" onSubmit="return check_form();">
+			<p>Use the form below to get in contact with us about any kind of inquiry. Please allow 24-48 hours for us to review your message and get back to you with relavent information.</p>
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" name="first_name" placeholder="John"></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name="last_name" placeholder="Smith"></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><input type="text" name="address" placeholder="1234 Apple Ave."></td>
+				</tr>
+				<tr>
+					<td>Phone Number:</td>
+					<td><input type="text" name="phone" placeholder="555-264-4325"></td>
+				</tr>
+				<tr>
+					<td>Inquiry:</td>
+					<td><textarea name="inquiry" placeholder="What can we help you with?"></textarea></td>
+				</tr>
+			</table>
+
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
