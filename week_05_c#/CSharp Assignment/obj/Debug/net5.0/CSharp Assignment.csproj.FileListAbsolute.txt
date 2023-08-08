@@ -1,0 +1,43 @@
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\appsettings.Development.json
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\appsettings.json
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.exe
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.deps.json
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.runtimeconfig.json
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.runtimeconfig.dev.json
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.dll
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.pdb
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.Views.dll
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\bin\Debug\net5.0\CSharp Assignment.Views.pdb
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.csproj.AssemblyReference.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.GeneratedMSBuildEditorConfig.editorconfig
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.AssemblyInfoInputs.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.AssemblyInfo.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.csproj.CoreCompileInputs.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.MvcApplicationPartsAssemblyInfo.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.RazorAssemblyInfo.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.RazorAssemblyInfo.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\staticwebassets\CSharp Assignment.StaticWebAssets.Manifest.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\scopedcss\bundle\CSharp Assignment.styles.css
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.TagHelpers.input.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.TagHelpers.output.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.RazorCoreGenerate.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\Razor\Pages\Form.cshtml.g.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.RazorTargetAssemblyInfo.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.RazorTargetAssemblyInfo.cs
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.Views.pdb
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.dll
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\ref\CSharp Assignment.dll
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.pdb
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.genruntimeconfig.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\CSharp Assignment.csproj.CopyComplete
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\staticwebassets\CSharp Assignment.StaticWebAssets.Pack.cache
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\staticwebassets\msbuild.CSharp Assignment.Microsoft.AspNetCore.StaticWebAssets.props
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\staticwebassets\msbuild.build.CSharp Assignment.props
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CSharp Assignment.props
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CSharp Assignment.props
+E:\odrive\OneDrive\College\Walsh\IT-413\Week 5\CSharp Assignment\CSharp Assignment\obj\Debug\net5.0\refint\CSharp Assignment.dll
