@@ -1,5 +1,4 @@
 <?php
-
 	include("functions.php");
 
 	$first_name = trim($_POST['first_name']);
@@ -12,8 +11,8 @@
 	if (isset($_POST['submit'])) // check if the button was pressed so we don't get "form was submitted" when first loading the page
 	{
 		// run through required validation functions
-		$message .= validateName("first name", $first_name, [ 3, 10 ]);
-		$message .= validateName("last name", $last_name, [ 2, 15 ]);
+		$message .= validateName("first name", $first_name, [3, 10]);
+		$message .= validateName("last name", $last_name, [2, 15]);
 		$message .= validateAddress($address);
 		$message .= validatePhone($phone);
 		$message .= validateInquiry($inquiry);
@@ -23,8 +22,6 @@
 			$message = "<div class=\"alert alert-danger\" role=\"alert\">" . $message . "</div>";
 		else
 			$message = "<div class=\"alert alert-success\" role=\"alert\">The form has been submitted successfully!</div>";
-
-		echo $message;
 	}
 ?>
 
@@ -37,6 +34,7 @@
 	</head>
 
 	<body>
+		<?php echo $message; ?>
 		<h3>Contact</h3>
 		<!-- define the form for data submission -->
 		<form action="form.php" method="post">
