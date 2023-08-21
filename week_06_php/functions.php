@@ -65,7 +65,7 @@
 		if (strpos($data, "-") !== false) // but if the user typed in dashes then make sure it's 12 characters long
 			$length = 12;
 
-		if ($data == "") // make sure it was entered
+		if (empty($data)) // make sure it was entered
 			$errorMessage = "Please enter your phone number.<br>";
 		else if (strlen($data) != $length) // make sure it's the proper length
 			$errorMessage = "Your phone number must be " . $length . " characters long.<br>";

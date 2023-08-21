@@ -1,6 +1,7 @@
 <?php
-	include("functions.php");
+	include("functions.php"); // import the functions file
 
+	// gather input and trim it to remove whitespace
 	$first_name = trim($_POST['first_name']);
 	$last_name = trim($_POST['last_name']);
 	$address = trim($_POST['address']);
@@ -29,6 +30,8 @@
 	<head>
 		<title>Contact Form</title>
 		<meta name="keywords" content="webpage, IT 413, assignment, contact form">
+
+		<!-- Bootstrap CSS and JS links for styling -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 	</head>
