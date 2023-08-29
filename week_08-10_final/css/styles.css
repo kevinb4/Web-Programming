@@ -1,0 +1,10 @@
+/* hide project state and errors until they need to be used */
+#select_project_state, #errors {
+    display: none;
+}
+
+/* color the facebook login button the same as the facebook logo */
+#login_fb {
+    color: #fff;
+    background-color: #1b74e4;
+}

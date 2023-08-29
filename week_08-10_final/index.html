@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Final Project</title>
+		<meta name="keywords" content="webpage, IT 413">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<!-- Bootstrap CSS link for styling -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<!-- login state start -->
+		<div id="login_state" class="position-absolute top-50 start-50 translate-middle">
+			<div id="errors" class="alert alert-danger" role="alert"></div>
+			<form id="login_form">
+				<div class="mb-3">
+					<label for="login_username" class="form-label">Username</label>
+					<input type="email" class="form-control" id="login_username">
+				</div>
+				<div class="mb-3">
+					<label for="login_password" class="form-label">Password</label>
+					<input type="password" class="form-control" id="login_password">
+				</div>
+
+				<button id="login_button" class="btn btn-success d-block mx-auto">Login</button>
+			</form>
+			<p class="text-center">or</p>
+
+			<button id="login_fb" class="btn d-block mx-auto">Login with Facebook</button>
+		</div>
+		<!-- login state end -->
+
+		<!-- select project state start -->
+		<div id="select_project_state" class="position-absolute top-50 start-50 translate-middle">
+			<h1 id="title" class="text-center">Welcome!</h1>
+			<p id="description" class="text-center fst-italic">Select a project below to get the tasks and their status.</p>
+			<form id="project_select">
+				<select name="project_selector" id="project_selector" class="form-select">
+					<option value="0">Select a Project</option>
+				</select>
+			</form>
+
+			<table id="projectData" class="table table-striped">
+				
+			</table>
+
+			<div class="mx-auto text-center">
+				<button id="add_task_button" class="btn btn-success me-2">Add Task</button>
+				<button id="edit_task_button" class="btn btn-secondary me-2">Edit Task</button>
+				<button id="logout_button" class="btn btn-danger">Logout</button>
+			</div>
+		</div>
+		<!-- select project end -->
+
+		<!-- modal for prompts start -->
+		<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+			  	<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="modalTitle"></h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div id="modalBody" class="modal-body">
+					</div>
+					<div id="modalFooter" class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+			  	</div>
+			</div>
+		</div>
+		<!-- modal end -->
+	</body>
+
+	<!-- Bootstrap JS and jquery links for styling -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<link href="jqueryui/jquery-ui.min.css" rel="stylesheet" type="text/css">
+	<link href="jqueryui/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+	<link href="jqueryui/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+	<script src="jqueryui/jquery-ui.min.js"></script>
+	<script src="js/application.js"></script>
+</html>
