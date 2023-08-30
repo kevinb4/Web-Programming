@@ -90,12 +90,10 @@
 		else
 		{
 			$row = $result->fetch_assoc();
-			$un = $row["username"];
-			$pw = $row["password"];
 
 			// passwords aren't being hashed as it's not a requirement
-			if ($login_password == $pw)
-				echo json_encode(["status" => "success", "username" => $login_username]);
+			if ($login_password == $row["password"])
+				echo json_encode(["status" => "success", "username" => $row["username"]]);
 			else
 				echo json_encode(["status" => "fail", "message" => "Incorrect credentials"]);
 		}
