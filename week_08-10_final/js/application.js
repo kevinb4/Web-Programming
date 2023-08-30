@@ -1,25 +1,5 @@
 $(document).ready(function() {
-	$('#login_button').click(function() {
-		validateUser();
-		return false;
-	});
-
-	$('#logout_button').click(function() {
-		// fade the project selector out and the login form back in
-		$('#select_project_state').fadeOut(500, function() {
-			$('#login_state').fadeIn(500);
-		});
-
-		// try to logout of facebook in case that was used
-		try {
-			FB.logout(function(response) {
-				statusChangeCallback(response);
-			});
-		} catch {
-			console.log("Facebook logout failed. Perhaps built-in account was used.")
-		}
-	});
-
+	// add/edit task buttons section start
 	$('#add_task_button').click(function() {
 		// define the modal necessities
 		var title = "Add Task",
@@ -42,7 +22,7 @@ $(document).ready(function() {
 
 		// if no project is selected, show an error message instead
 		if ($('#project_selector').val() == '0') {
-			title = "Error";
+			title = "Notice";
 			body = "Please select a project before adding a task.";
 			footer = '<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>';
 		}
@@ -94,7 +74,7 @@ $(document).ready(function() {
 
 			// if no project is selected, show an error message instead
 			if ($('#project_selector').val() == '0') {
-				title = "Error";
+				title = "Notice";
 				body = "Please select a project before editing a task.";
 				footer = '<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>';
 			}
@@ -107,7 +87,32 @@ $(document).ready(function() {
 			myModal.show();
 		}, "json");
 	});
+	// add/edit task buttons section end
 
+	// login/logout buttons section start
+	$('#login_button').click(function() {
+		validateUser();
+		return false;
+	});
+
+	$('#logout_button').click(function() {
+		// fade the project selector out and the login form back in
+		$('#select_project_state').fadeOut(500, function() {
+			$('#login_state').fadeIn(500);
+		});
+
+		// try to logout of facebook in case that was used
+		try {
+			FB.logout(function(response) {
+				statusChangeCallback(response);
+			});
+		} catch {
+			console.log("Facebook logout failed. Perhaps built-in account was used.")
+		}
+	});
+	// login/logout buttons section end
+
+	// project selector section start
 	$('#project_selector').on('change', function() {
 		$('#projectData').empty();
 
@@ -145,8 +150,9 @@ $(document).ready(function() {
 			myModal.show();
 		});
 	});
+	// project selector section end
 
-	// facebook start
+	// facebook start section
 	$.ajaxSetup({ cache: true });
 	$.getScript('https://connect.facebook.net/en_US/sdk.js', function() {
 		FB.init({
@@ -163,11 +169,11 @@ $(document).ready(function() {
 			statusChangeCallback(response);
 		});
 	});
-	// facebook end
+	// facebook end section
 });
-// end document ready
+// end document ready section
 
-// begin getProjects
+// begin getProjects section
 function getProjects() {
 	$.post("dataretriever.php", {command: "get_projects"}, function(data) {
 		var count = 0;
@@ -188,9 +194,9 @@ function getProjects() {
 		myModal.show();
 	});
 }
-// end getProjects
+// end getProjects section
 
-// begin getProjectDetails
+// begin getProjectDetails section
 function statusChangeCallback(response) {
 	if (response.status === 'connected') {
 		getProjects();
@@ -201,9 +207,9 @@ function statusChangeCallback(response) {
 		console.log(response);
 	}
 }
-// end getProjectDetails
+// end getProjectDetails section
 
-// begin validateUser
+// begin validateUser section
 function validateUser() {
 	var username = $('#login_username').val();
 	var password = $('#login_password').val();
@@ -215,8 +221,9 @@ function validateUser() {
 	// no username validation specified in requirements, so we're just making sure something was entered
 	if (username == '' || password == '') {
 		// shake the login form and show an error message
-
 		$('#login_form').effect("shake");
+
+		// set the border color to red for the empty fields
 		if (username == '')
 			$('#login_username').css("border-color", "red");
 		if (password == '')
@@ -228,6 +235,7 @@ function validateUser() {
 				getProjects();
 				$('#login_state').fadeOut(500, function() {
 					$('#select_project_state').fadeIn(500);
+					$('#errors').hide(); // hide the error message in case user logs out
 				});
 			} else if (data.status == 'fail') {
 				$('#errors').slideUp(500, function() {
@@ -245,4 +253,4 @@ function validateUser() {
 		});
 	}
 }
-// end validateUser
+// end validateUser section
