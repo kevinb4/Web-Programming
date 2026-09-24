@@ -1,5 +1,4 @@
-# Web Programming (IT 413)
-
+# Web Programming
 A collection of assignments from a web programming course, progressing from static HTML pages through client-side scripting, CSS frameworks, server-side languages (C#/ASP.NET, PHP), and a final full-stack project with a database-backed REST-style API and Facebook login integration.
 
 ## Structure
